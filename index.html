@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="text/javascript">
+    // Wait for document to load
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    });
+  </script>
+
   <meta charset="utf-8" />
   <title>Anima: Beyond Fantasy Character Generator</title>
   <meta name="keywords" content="anima, character generator" />
@@ -321,7 +328,7 @@
 
         <div class="form-group">
         <label for="Gender" class="control-label col-xs-2">Gender</label>
-        <div class="col-xs-10"><select id="Gender" name="Gender" class="required form-control">
+        <div class="col-xs-10"><select id="Gender" name="Gender" class="form-control">
           <option value="">----</option>
           <option value="Female">Female</option>
           <option value="Male">Male</option>
