@@ -12,16 +12,16 @@
     "url": "https://github.com/jmbowman/anima-character-generator.git"
   },
   "devDependencies": {
-    "@playwright/test": "^1.14.1",
     "grunt": "~0.4.0",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-concat": "~0.1.2",
-    "grunt-contrib-copy": "~0.4.0",
     "grunt-contrib-jshint": "~0.1.1",
     "grunt-contrib-requirejs": "~0.4.0",
     "grunt-css": "~0.5.3",
     "grunt-jsdoc": "~0.2.3",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.2",
     "grunt-md5": "~0.1.7",
-    "playwright": "^1.14.1"
+    "playwright": "1.14.0",
+    "playwright-cli": "0.180.0" 
   }
 }
