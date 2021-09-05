@@ -1,4 +1,5 @@
 const { chromium } = require('playwright');
+const pixelmatch = require('pixelmatch');
 
 function delay(time) {
   return new Promise(function(resolve) { 
@@ -112,9 +113,11 @@ function delay(time) {
   await page.click('text=OK');
 
   await delay(1000);
-  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.evaluate(() => window.scrollTo(0, 0));
 
-  await page.screenshot({path: "maxedChar.png"});
+
+
+  await page.screenshot({path: "maxedGuardRes.png"});
   // ---------------------
   await context.close();
   await browser.close();
