@@ -350,6 +350,7 @@ define(function () {
         c.Control = 1;
         c.Bind = 1;
         c.Banish = 1;
+        c.Vigor = 2;
         c.bonuses = {Zeon: 20,  Attack: 5, Block: 5, Dodge: 5, Summon: 5, Control: 5, Bind: 5, Banish: 5, Occult: 5};
     }(classes['Warrior Summoner']));
     
