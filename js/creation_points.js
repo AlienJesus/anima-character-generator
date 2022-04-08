@@ -356,7 +356,7 @@ disadvantages, tables, utils) {
     Character.prototype.cp_total = function () {
         var myDisadvantages = this.Disadvantages,
             name,
-            total = 3;
+            total = 5;
         for (name in myDisadvantages) {
             if (myDisadvantages.hasOwnProperty(name)) {
                 total += this.disadvantage_benefit(name);
