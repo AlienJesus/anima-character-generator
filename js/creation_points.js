@@ -298,7 +298,7 @@ disadvantages, tables, utils) {
             myAdvantages = this.Advantages,
             myDisadvantages = this.Disadvantages,
             other_categories = {Background: 0, Magic: 0, Psychic: 0},
-            total = (!category || category === 'Common') ? 3 : 0;
+            total = (!category || category === 'Common') ? 5 : 0;
         for (name in myDisadvantages) {
             if (myDisadvantages.hasOwnProperty(name)) {
                 amount = this.disadvantage_benefit(name);
