@@ -834,8 +834,8 @@ cultural_roots, disciplines, essential_abilities, tables, utils) {
      */
     Character.prototype.size = function () {
         var total = this.characteristic('STR') + this.characteristic('CON'),
-            uncommon_size = this.Advantages['Uncommon Size'],
-            unnatural_size = this.levels[0].DP['Unnatural Size'];
+            uncommon_size = Number(this.Advantages['Uncommon Size']),
+            unnatural_size = Number(this.levels[0].DP['Unnatural Size']);
         switch (this.Race) {
         case 'Daimah Nephilim':
             total -= 1;
